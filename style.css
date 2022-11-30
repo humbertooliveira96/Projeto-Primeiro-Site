@@ -226,14 +226,30 @@ footer {
 }
 
 @media  (max-width: 480px) {
+    .h1header {
+        font-size: 5vh;
+    }
     .main {
         width: 410px;
+        padding: 10px;
+        margin: auto;
        
 }
     body {
         margin: 0px;
         padding: 0px;
     }
+    main > p {
+        font-size: 2vh;
+        
+    }
+
+    main > ul > li > p {
+        font-size: 2vh;
+        padding: 5px;
+        text-align: left;
+    }
+
     .main > section > p {
         width: auto;
         height: auto;
@@ -241,20 +257,38 @@ footer {
         font-size: 12px;
         line-height: normal;
         padding: 3px;
+        margin-top: 222px;
     }
     
     #pipaimgs1 {
         width: auto;
-        height: 325px;
-    
+        height: 325px;    
     }
     #pipaimgs2 {
         width: auto;
         height: 325px;
     }
+    #pipaimgs2 > p {
+        margin-top: 270px;
+    }
+
     #pipaimgs3 {
         width: auto;
         height: 325px;
+    }
+    #morroimg {
+        width: auto;
+        height: 325px;
+    }
+    #morroimg2 {
+        width: auto;
+        height: 325px;
+    }
+    #morroimg > p {
+        width: auto;
+        height: auto;
+        margin: auto;
+        margin-top: 33.4%;
     }
 
 }
@@ -317,12 +351,12 @@ footer {
 .pipaimgs > p {
     background-color: rgba(0, 128, 0, 0.473);
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
     text-align: left;
     line-height: 20px;
     width: 95%;
-    height: 85px;
+    height: fit-content;
     border-radius: 10px;
     padding: 15px;
     margin-top: 530px;
@@ -330,7 +364,6 @@ footer {
 
 #pipaimgs2 {
     background-image: url('Imagens/praiapipa01.jpg');
-    
 }
 
 #pipaimgs3 {
@@ -350,12 +383,12 @@ footer {
 .morroimg > p {
     background-color: rgba(0, 128, 0, 0.473);
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
     text-align: left;
     line-height: 20px;
     width: auto;
-    height: 250px;
+    height: fit-content;
     border-radius: 10px;
     padding: 15px;
     margin: auto;
@@ -402,7 +435,7 @@ footer {
 .genipabuimg > p {
     background-color: rgba(0, 128, 0, 0.473);
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
     text-align: left;
     line-height: 20px;
@@ -433,7 +466,7 @@ footer {
 .maracajauimgs > p {
     background-color: rgba(0, 128, 0, 0.473);
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
     text-align: left;
     line-height: 20px;
@@ -460,7 +493,7 @@ footer {
 .pitanguiimgs > p {
     background-color: rgba(0, 128, 0, 0.473);
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
     text-align: left;
     line-height: 20px;
