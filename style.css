@@ -22,7 +22,6 @@
     --font3: 'Sriracha', cursive;
 }
 
-
 header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -82,8 +81,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin-top: 1%;
-    
-    
 }
 
 .div1 > ul {
@@ -103,6 +100,24 @@ body {
     text-align: left;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
     border-style: groove;
+}
+
+main > section {
+    background-size: cover;
+    width: auto;
+    height: 750px;
+    margin-top: 650px;
+}
+
+.main > section > p {
+    background-color: rgba(0, 128, 0, 0.473);
+    color: white;
+    font-size: 2vh;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
+    text-align: left; 
+    padding: 15px;
+    margin: 0px;
+    width: auto;
 }
 
 main p {
@@ -230,7 +245,7 @@ footer {
         font-size: 5vh;
     }
     .main {
-        width: 410px;
+        width: 430px;
         padding: 0px;
         margin: auto;
        
@@ -244,52 +259,30 @@ footer {
         
     }
 
-    main > ul > li > p {
+    .main > ul > li > p {
         font-size: 2vh;
         padding: 5px;
         text-align: left;
     }
 
-    .main > section > p {
-        width: auto;
-        height: auto;
-        margin: auto;
-        font-size: 12px;
-        line-height: normal;
-        padding: 3px;
-        margin-top: 222px;
-    }
-    
-    #pipaimgs1 {
-        width: auto;
-        height: 325px;    
-    }
-    #pipaimgs2 {
+    .main > section {
+        background-size: contain;
         width: auto;
         height: 325px;
-    }
-    #pipaimgs2 > p {
-        margin-top: 270px;
+        margin-top: 15px;
     }
 
-    #pipaimgs3 {
+    .main > section > p {
+        background-color: rgba(0, 128, 0, 0.473);
+        color: white;
+        font-size: 1.5vh;
+        box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
+        text-align: left; 
+        padding: 0px;
+        margin: 0px;
         width: auto;
-        height: 325px;
     }
-    #morroimg {
-        width: auto;
-        height: 325px;
-    }
-    #morroimg2 {
-        width: auto;
-        height: 325px;
-    }
-    #morroimg > p {
-        width: auto;
-        height: auto;
-        margin: auto;
-        margin-top: 33.4%;
-    }
+    
 
 }
 
@@ -337,37 +330,31 @@ footer {
 }
 
 
-.pipaimgs {
-    display: flex;
-    justify-content: center;
+#pipaimgs1 {
     background-image: url('Imagens/praiapipa02.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
     margin-top: 15px;
 }
 
-.pipaimgs > p {
-    background-color: rgba(0, 128, 0, 0.473);
-    color: white;
-    font-size: 2vh;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
-    text-align: left;
-    line-height: 20px;
-    width: 95%;
-    height: fit-content;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 530px;
-}
-
 #pipaimgs2 {
     background-image: url('Imagens/praiapipa01.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
 #pipaimgs3 {
     background-image: url('Imagens/praiapipa03.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
     
 }
 
@@ -380,20 +367,6 @@ footer {
     margin-top: 15px;
 }
 
-.morroimg > p {
-    background-color: rgba(0, 128, 0, 0.473);
-    color: white;
-    font-size: 2vh;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
-    text-align: left;
-    line-height: 20px;
-    width: auto;
-    height: fit-content;
-    border-radius: 10px;
-    padding: 15px;
-    margin: auto;
-}
-
 .morroimg > h2 {
     text-align: center;
     color: white;
@@ -401,113 +374,99 @@ footer {
 
 #morroimg2 {
     background-image: url('Imagens/morroimg2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
-#maracajauimgs {
+#maraimg1 {
     background-image: url('Imagens/maracajau01.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px
 }
 
-#maracajauimgs2 {
+#maraimg2 {
     background-image: url('Imagens/maracajau02.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px
 }
 
 .genipabuimg {
     background-image: url('Imagens/morroimg1.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
-}
-
-.genipabuimg > p {
-    background-color: rgba(0, 128, 0, 0.473);
-    color: white;
-    font-size: 2vh;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
-    text-align: left;
-    line-height: 20px;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-    padding: 15px;
-    margin: auto;
+    margin-top: 15px
 }
 
 #genipabuimg2 {
     background-image: url(Imagens/genipabu02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
 #genipabuimg3 {
     background-image: url(Imagens/genipabu03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
 .maracajauimgs {
     background-image: url('Imagens/maracajau01.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
-}
-
-.maracajauimgs > p {
-    background-color: rgba(0, 128, 0, 0.473);
-    color: white;
-    font-size: 2vh;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
-    text-align: left;
-    line-height: 20px;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-    padding: 15px;
-    margin: auto;
+    margin-top: 15px
 }
 
 #maracajauimgs2 {
-    background-image: url(Imagens/maracajau02.jpg);
+    background-image: url('Imagens/maracajau02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
 .pitanguiimgs {
     background-image: url('Imagens/pitanguin01.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 750px;
-    height: 650px;
     box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
-}
-
-.pitanguiimgs > p {
-    background-color: rgba(0, 128, 0, 0.473);
-    color: white;
-    font-size: 2vh;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
-    text-align: left;
-    line-height: 20px;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-    padding: 15px;
-    margin: auto;
+    margin-top: 15px
 }
 
 #pitanguiimgs1 {
     background-image: url('Imagens/pitangui02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
 
 #pitanguiimgs2 {
     background-image: url('Imagens/pitangui03.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 750px;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
 }
