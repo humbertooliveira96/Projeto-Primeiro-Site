@@ -104,9 +104,12 @@ body {
 
 main > section {
     background-size: cover;
-    width: auto;
-    height: 750px;
-    margin-top: 650px;
+    width: 750px;
+    height: 650px;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 1px 1px black;
+    margin-top: 15px
+    
 }
 
 .main > section > p {
@@ -123,7 +126,7 @@ main > section {
 main p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
-    font-size: 1.6vh;
+    font-size: 2vh;
     /* Texter-indent = Recuo no paragrafo antes do texto */
 }
 
@@ -248,6 +251,7 @@ footer {
         width: 430px;
         padding: 0px;
         margin: auto;
+        display: flex;
        
 }
     body {
@@ -267,9 +271,14 @@ footer {
 
     .main > section {
         background-size: contain;
-        width: auto;
-        height: 325px;
-        margin-top: 15px;
+        width: 425px;
+        height: 350px;
+        padding: 0px;
+        margin: 15px auto auto auto;
+        background-repeat: no-repeat;
+        box-shadow: inset 1px 1px 1px black;
+        border: rgba(0, 0, 0, 0.384);
+        border-radius: 7px;
     }
 
     .main > section > p {
@@ -278,9 +287,12 @@ footer {
         font-size: 1.5vh;
         box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.493);
         text-align: left; 
-        padding: 0px;
+        padding: 5px;
         margin: 0px;
-        width: auto;
+        width: 414px;
+        height: fit-content;
+        border: rgb(0, 0, 0);
+        border-radius: 15px;
     }
     
 
@@ -332,39 +344,21 @@ footer {
 
 #pipaimgs1 {
     background-image: url('Imagens/praiapipa02.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
+    
 }
 
 #pipaimgs2 {
     background-image: url('Imagens/praiapipa01.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
 }
 
 #pipaimgs3 {
     background-image: url('Imagens/praiapipa03.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
     
 }
 
 .morroimg {
     background-image: url('Imagens/morroimg1.jpg');
-    background-size: cover;
-    width: 750px;
-    height: 650px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px;
+    
 }
 
 .morroimg > h2 {
@@ -374,99 +368,55 @@ footer {
 
 #morroimg2 {
     background-image: url('Imagens/morroimg2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #maraimg1 {
     background-image: url('Imagens/maracajau01.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #maraimg2 {
     background-image: url('Imagens/maracajau02.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 .genipabuimg {
     background-image: url('Imagens/morroimg1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #genipabuimg2 {
     background-image: url(Imagens/genipabu02.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #genipabuimg3 {
     background-image: url(Imagens/genipabu03.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 .maracajauimgs {
     background-image: url('Imagens/maracajau01.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #maracajauimgs2 {
     background-image: url('Imagens/maracajau02.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 .pitanguiimgs {
     background-image: url('Imagens/pitanguin01.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #pitanguiimgs1 {
     background-image: url('Imagens/pitangui02.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
 
 #pitanguiimgs2 {
     background-image: url('Imagens/pitangui03.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 750px;
-    box-shadow: inset 1px 1px 1px black;
-    margin-top: 15px
+    
 }
