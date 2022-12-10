@@ -62,12 +62,12 @@ body {
 #headerul {
     list-style: none;
     display: flex;
-    
+    justify-content: left;
 }
 
 #headerul > li {
-    padding-left: 2%;
-    
+    padding-left: 15px;
+    margin: 0px;
     
 }
 
@@ -138,18 +138,37 @@ main ul {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.507);
 }
 
+.main > h2 {
+    font-family: 'LightBeach';
+    color: rgba(0, 128, 0, 0.473);
+    font-size: 6vh;
+    text-shadow: rgba(0, 0, 0, 0.377) 0.5px 0.5px 0.5px;
+}
+
 #h1main {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    font-family: 'LightBeach';
+    font-size: 6vh;
+    text-shadow: rgba(0, 0, 0, 0.377) 0.5px 0.5px 0.5px;
     text-align: center;
-    background-color: rgba(35, 136, 73, 0.76);
     color: white;
-    width: 100%;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.726);
-    
+    box-sizing: border-box;
+    background-color: rgba(0, 128, 0, 0.658);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 1px;
+    padding: 5px;
 }
 
 h2 {
     text-align: center;
+}
+
+.strong {
+    color: rgba(0, 0, 255, 0.637);
+}
+
+.menus > ul {
+    padding-left: 0px;
+    font-weight: 600;
 }
 
 .menus {
@@ -167,6 +186,7 @@ h2 {
     border: rgba(99, 172, 105, 0.76);
     border-style: groove;
     text-align: left;
+  
 }
 
 a {
@@ -178,15 +198,17 @@ a:hover {
     color: green;
 }
 
+
 .menu:hover > ul {
     display: block;
     position: absolute;
     color: white;
     background-color: #496131;
-    width: auto;
+    width: fit-content;
     height: auto;
     text-align: left;
     padding: 10px;
+    
 }
 
 .menu:hover > ul > li > a:hover {
@@ -195,12 +217,13 @@ a:hover {
 
 .menu > ul {
     display: none;
-    list-style: none;  
+    list-style: none;
 }
 
 .menu:hover {
     color: rgb(42, 68, 44);
     text-decoration: none;
+    
 }
 
 .menu:hover > ul > li > a {
