@@ -104,7 +104,7 @@ body {
 
 main > section {
     background-size: cover;
-    width: 750px;
+    width: auto;
     height: 650px;
     background-repeat: no-repeat;
     box-shadow: inset 1px 1px 1px black;
@@ -186,7 +186,7 @@ h2 {
     border: rgba(99, 172, 105, 0.76);
     border-style: groove;
     text-align: left;
-  
+    
 }
 
 a {
@@ -208,8 +208,8 @@ a:hover {
     height: auto;
     text-align: left;
     padding: 10px;
-    
 }
+
 
 .menu:hover > ul > li > a:hover {
     color: rgb(0, 128, 0);
@@ -271,8 +271,8 @@ footer {
         font-size: 5vh;
     }
     .main {
-        width: 430px;
-        padding: 0px;
+        width: auto;
+        padding: 5px;
         margin: auto;
         display: flex;
        
@@ -283,7 +283,6 @@ footer {
     }
     main > p {
         font-size: 2vh;
-        
     }
 
     .main > ul > li > p {
@@ -293,15 +292,12 @@ footer {
     }
 
     .main > section {
-        background-size: contain;
-        width: 425px;
-        height: 350px;
+        background-size: cover;
+        width: auto;
+        height: 325px;
         padding: 0px;
         margin: 15px auto auto auto;
         background-repeat: no-repeat;
-        box-shadow: inset 1px 1px 1px black;
-        border: rgba(0, 0, 0, 0.384);
-        border-radius: 7px;
     }
 
     .main > section > p {
@@ -312,7 +308,7 @@ footer {
         text-align: left; 
         padding: 5px;
         margin: 0px;
-        width: 414px;
+        width: auto;
         height: fit-content;
         border: rgb(0, 0, 0);
         border-radius: 15px;
@@ -323,7 +319,7 @@ footer {
 
 @media  (max-width: 480px) {
     header {
-        width: 430px;
+        width: auto;
     }
 }
 
@@ -332,14 +328,14 @@ footer {
         background-image: url(Imagens/wallpapper320x480.jpg);
     }
     footer {
-        width: 430px;
+        width: auto;
     }
     
 }
 
 @media (max-width: 480px) {
     .menus {
-        width: 430px;
+        width: auto;
     }
     
 }
@@ -367,7 +363,6 @@ footer {
 
 #pipaimgs1 {
     background-image: url('Imagens/praiapipa02.jpg');
-    
 }
 
 #pipaimgs2 {
